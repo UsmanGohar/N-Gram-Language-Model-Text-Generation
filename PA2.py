@@ -1,7 +1,4 @@
-# Programming Assignment #3 
-# Intro. to NLP
 # Usman Gohar
-# Submitted to Ted Pedersen
 # Date:06/10/17
 
 # Implement and Design a python program that will learn an N-gram model language model from an arbitrary number of text files
@@ -84,10 +81,8 @@ def unigramss(lis,n):
                                 	print "End of Sentence",i
 					i=i+1
                                 	break
-			temp_back=temp
-		final.extend(sent)					#There is one problem where I cannot print them in sentences form. So it will print in columns in unigram list form
-									#The period is sometimes joined with the next sentence. But the sentence in essence is correct
-	#print str(final)
+			temp_back
+		final.extend(sent)				
 
 
 ################## BI-GRAM FUNCTION ##############################################
@@ -174,14 +169,3 @@ if (sys.argv[1]=='2'):			#If the second argument of input is two, run bigram fun
 	bigramss(bi)
 if (sys.argv[1]=='3'):			#If the second argument of input is three, run trigram function
 	trigramss(tri)
-
-
-
-
-
-#	print count
-#	bi[key]=value/(
-#for key,value in bi.items():
-#	check=UN[key]
-#	bi[key]=(value/UN[key[0])
-#print bi['be','fine']
